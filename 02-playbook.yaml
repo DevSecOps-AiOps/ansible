@@ -1,5 +1,5 @@
 - name: demo on debug
   hosts: frontend
   tasks:
-    name: "This is a debug message - Hello World"
-      debug:
+  - name: "This is a debug message - Hello World"
+    debug:
