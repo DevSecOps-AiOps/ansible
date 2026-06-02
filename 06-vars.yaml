@@ -1,0 +1,12 @@
+- name: demo on vars_files from course.yaml
+  hosts: localhost
+  connection: local
+  vars_files:
+    - course.yaml
+  tasks:
+    - name: "Display course information"
+      debug:
+        msg: "I am learning {{ COURSE }}, Trainer is {{ TRAINER }}, Duration is {{ DURATION }}"
+
+
+# ansible-playbook 06-vars.yaml   
