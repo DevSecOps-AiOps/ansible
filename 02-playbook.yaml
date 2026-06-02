@@ -3,3 +3,4 @@
   tasks:
   - name: "This is a debug message - Hello World"
     debug:
+      msg: "Hello World- this is the message"
