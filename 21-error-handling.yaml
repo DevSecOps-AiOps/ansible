@@ -1,0 +1,11 @@
+- name: demo on error handling
+  hosts: local
+  connection: local
+  tasks:
+  - name: check roboshop user exist or not 
+    command: id roboshop
+    ignore_errors: yes
+    register: roboshop_output
+  - name: print output 
+    debug:
+      msg: "{{ roboshop_output }}"

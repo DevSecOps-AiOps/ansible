@@ -9,3 +9,9 @@
     - name: print output 
       debug:
         msg: "{{ users_output }}"
+
+#here rc =0 success if it is 1 or 2 any number it fails
+
+    - name: list files 
+      #command: ls -ltr > /tmp/files.txt
+      shell: ls -ltr > /tmp/files.txt
