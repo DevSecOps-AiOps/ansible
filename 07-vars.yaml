@@ -12,4 +12,3 @@
   - name: "Display Username and Password"
     debug:
       msg: "Username: {{ username }}, Password: {{ password }}"
-      
