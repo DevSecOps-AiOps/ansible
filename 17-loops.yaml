@@ -7,7 +7,7 @@
       name: {{ item }}
       state: present
     loop:
-      - nginx
-      - httpd
-      - firewalld 
+    - nginx
+    - httpd
+    - firewalld 
     
