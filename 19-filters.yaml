@@ -8,6 +8,8 @@
       project: Roboshop
       environment: dev
     fullname:  Sali Chinnu
+    ip_address:1000.198.1.7923
+
     tagList: [
       {
           "key": "name",
@@ -43,3 +45,6 @@
   - name: convert to lower case
     debug:
       msg: "{{ fullname | lower }}"
+  - name: check ipv4 address
+    debug:
+      msg: "{{ ip_address | ipv4 }}"
