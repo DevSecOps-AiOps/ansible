@@ -10,6 +10,13 @@
   tasks:
     - name: print vars preferences
       vars:
-        full_name: "Chinnu from TASK level"
+        #full_name: "Chinnu from TASK level"
       debug:
         msg: "Hi, {{ full_name}}"
+
+
+# 1. CMD args
+# 2. TASK level
+# 3. vars_prompt
+# 4. Vars_files
+# 5. vars
