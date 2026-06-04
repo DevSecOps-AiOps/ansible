@@ -8,19 +8,19 @@
       project: Roboshop
       environment: dev
       
-      tagList: [
-        {
-            "key": "name",
-            "value": "Ansible"
-        },
-        {
-            "key": "project",
-            "value": "Roboshop"
-        },
-        {
-            "key": "environment",
-            "value": "dev"
-        }
+    tagList: [
+      {
+          "key": "name",
+          "value": "Ansible"
+      },
+      {
+          "key": "project",
+          "value": "Roboshop"
+      },
+      {
+          "key": "environment",
+          "value": "dev"
+      }
     ]
   tasks:
   - name: convert string to list
