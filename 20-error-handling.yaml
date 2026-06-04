@@ -3,8 +3,9 @@
   connection: local
   tasks:
     - name: command test 
+      # command: cat /etc/passwd  | grep root
       shell: cat /etc/passwd  | grep root
-      reegister: users_output
+      register: users_output
     - name: print output 
       debug:
-        msg: Output is "{{ users_output }}"
+        msg: "Output is {{ users_output }}"
