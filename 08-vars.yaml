@@ -1,0 +1,8 @@
+- name: demo on inventory variables
+  hosts: frontend
+  tasks:
+    - name: print information 
+      debug:
+      msg:  "Hi, I'm Learning {{ COURSE }}, Trainer is {{ TRAINER }}, Duration is {{ DURATION }}, common_key: {{ common_key }}"
+
+# ansible-playbook 08-vars.yaml
