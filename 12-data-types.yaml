@@ -12,8 +12,9 @@
     more_details: # map
       months: "5"
       trainer: "Sivakumar Reddy"
-    tasks:
-    - name: print information 
+  tasks:
+  - name: print information 
+    debug:
       msg:  
         name: {{ course }}
         Duration: {{ Duration_in_hrs }}
