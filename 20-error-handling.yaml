@@ -8,4 +8,4 @@
       register: users_output
     - name: print output 
       debug:
-        msg: "Output is {{ users_output }}"
+        msg: "{{ users_output }}"
